@@ -1,0 +1,460 @@
+
+Dec 06, 2016 23:19:24.25 NEW SESSION
+Dec 06, 2016 23:19:24.25 1481046564255	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 06, 2016 23:19:24.26 1481046564266	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 06, 2016 23:19:24.26 1481046564266	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 06, 2016 23:19:24.28 1481046564287	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 06, 2016 23:19:24.52 *************************
+Dec 06, 2016 23:19:24.52 A coding exception was thrown and uncaught in a Task.
+Dec 06, 2016 23:19:24.52 
+Dec 06, 2016 23:19:24.52 Full message: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+Dec 06, 2016 23:19:24.52 Full stack: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 06, 2016 23:19:24.52 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 06, 2016 23:19:24.52 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 06, 2016 23:19:24.52 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 06, 2016 23:19:24.52 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 06, 2016 23:19:24.52 
+Dec 06, 2016 23:19:24.52 *************************
+Dec 06, 2016 23:19:24.52 Extension error: AddonManagerInternal._getProviderByName(...) is undefined resource://gre/modules/AddonManager.jsm:2352 :: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 06, 2016 23:19:24.52 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 06, 2016 23:19:24.52 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 06, 2016 23:19:24.52 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 06, 2016 23:19:24.52 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 06, 2016 23:19:24.52 
+Dec 06, 2016 23:19:24.61 1481046564612	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:339:5) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:339:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:675:24 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 06, 2016 23:19:24.61 1481046564614	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+Dec 06, 2016 23:19:24.61 1481046564615	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: XPIProvider.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1934:14) JS Stack trace: processFileChanges@XPIProviderUtils.js:1934:14 < this.XPIDatabase.rebuildDatabase@XPIProviderUtils.js:825:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:696:7 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 06, 2016 23:19:27.26 1481046567269	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 06, 2016 23:19:27.28 1481046567280	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 06, 2016 23:19:27.28 1481046567280	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 06, 2016 23:19:27.30 1481046567302	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 06, 2016 23:25:13.01 Promise rejected after context unloaded
+Dec 06, 2016 23:25:13.01 Promise rejected after context unloaded
+Dec 06, 2016 23:25:27.35 Promise rejected after context unloaded
+Dec 06, 2016 23:25:27.35 Promise rejected after context unloaded
+Dec 06, 2016 23:25:32.24 Promise rejected after context unloaded
+Dec 06, 2016 23:25:32.24 Promise rejected after context unloaded
+Dec 06, 2016 23:25:38.60 Promise rejected after context unloaded
+Dec 06, 2016 23:25:38.60 Promise rejected after context unloaded
+Dec 06, 2016 23:27:09.83 Promise rejected after context unloaded
+Dec 06, 2016 23:27:09.83 Promise rejected after context unloaded
+Dec 06, 2016 23:28:25.98 Promise rejected after context unloaded
+Dec 06, 2016 23:28:25.98 Promise rejected after context unloaded
+Dec 06, 2016 23:28:29.81 Promise rejected after context unloaded
+Dec 06, 2016 23:28:29.81 Promise rejected after context unloaded
+Dec 06, 2016 23:28:32.11 Promise rejected after context unloaded
+Dec 06, 2016 23:28:32.11 Promise rejected after context unloaded
+Dec 06, 2016 23:28:58.23 Promise rejected after context unloaded
+Dec 06, 2016 23:28:58.23 Promise rejected after context unloaded
+Dec 06, 2016 23:31:52.24 Promise rejected after context unloaded
+Dec 06, 2016 23:31:52.24 Promise rejected after context unloaded
+Dec 06, 2016 23:32:01.95 tabs.onRemoved event fired after context unloaded.
+Dec 06, 2016 23:32:01.95 Promise rejected after context unloaded
+Dec 06, 2016 23:32:01.95 Promise rejected after context unloaded
+Dec 06, 2016 23:32:01.95 Promise rejected after context unloaded
+Dec 06, 2016 23:32:01.95 Promise rejected after context unloaded
+
+Dec 07, 2016 15:30:25.39 NEW SESSION
+Dec 07, 2016 15:30:25.39 1481104825392	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 07, 2016 15:30:25.41 1481104825404	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 07, 2016 15:30:25.41 1481104825404	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 07, 2016 15:30:25.42 1481104825425	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 07, 2016 15:30:25.79 *************************
+Dec 07, 2016 15:30:25.79 A coding exception was thrown and uncaught in a Task.
+Dec 07, 2016 15:30:25.79 
+Dec 07, 2016 15:30:25.79 Full message: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+Dec 07, 2016 15:30:25.79 Full stack: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 07, 2016 15:30:25.79 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 07, 2016 15:30:25.79 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 07, 2016 15:30:25.79 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 07, 2016 15:30:25.79 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 07, 2016 15:30:25.79 
+Dec 07, 2016 15:30:25.79 *************************
+Dec 07, 2016 15:30:25.79 Extension error: AddonManagerInternal._getProviderByName(...) is undefined resource://gre/modules/AddonManager.jsm:2352 :: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 07, 2016 15:30:25.79 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 07, 2016 15:30:25.79 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 07, 2016 15:30:25.79 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 07, 2016 15:30:25.79 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 07, 2016 15:30:25.79 
+Dec 07, 2016 15:30:25.87 1481104825872	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:339:5) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:339:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:675:24 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 07, 2016 15:30:25.87 1481104825874	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+Dec 07, 2016 15:30:25.87 1481104825875	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: XPIProvider.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1934:14) JS Stack trace: processFileChanges@XPIProviderUtils.js:1934:14 < this.XPIDatabase.rebuildDatabase@XPIProviderUtils.js:825:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:696:7 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 07, 2016 15:30:28.60 1481104828602	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 07, 2016 15:30:28.61 1481104828616	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 07, 2016 15:30:28.61 1481104828616	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 07, 2016 15:30:28.65 1481104828654	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 07, 2016 15:30:53.89 Promise rejected after context unloaded
+Dec 07, 2016 15:30:53.89 Promise rejected after context unloaded
+Dec 07, 2016 15:31:10.12 Promise rejected after context unloaded
+Dec 07, 2016 15:31:10.12 Promise rejected after context unloaded
+Dec 07, 2016 15:31:53.00 Promise rejected after context unloaded
+Dec 07, 2016 15:32:32.48 Promise rejected after context unloaded
+Dec 07, 2016 15:32:32.48 Promise rejected after context unloaded
+Dec 07, 2016 15:32:37.06 Promise rejected after context unloaded
+Dec 07, 2016 15:32:37.06 Promise rejected after context unloaded
+Dec 07, 2016 15:32:59.60 Promise rejected after context unloaded
+Dec 07, 2016 15:32:59.60 Promise rejected after context unloaded
+Dec 07, 2016 15:35:18.77 Promise rejected after context unloaded
+Dec 07, 2016 15:35:18.77 Promise rejected after context unloaded
+Dec 07, 2016 15:35:23.91 Promise rejected after context unloaded
+Dec 07, 2016 15:35:23.91 Promise rejected after context unloaded
+Dec 07, 2016 15:35:27.71 Promise rejected after context unloaded
+Dec 07, 2016 15:35:27.71 Promise rejected after context unloaded
+Dec 07, 2016 15:35:42.69 Promise rejected after context unloaded
+Dec 07, 2016 15:35:42.69 Promise rejected after context unloaded
+Dec 07, 2016 15:36:13.65 Promise rejected after context unloaded
+Dec 07, 2016 15:36:13.65 Promise rejected after context unloaded
+Dec 07, 2016 15:36:54.66 Promise rejected after context unloaded
+Dec 07, 2016 15:36:54.66 Promise rejected after context unloaded
+Dec 07, 2016 15:36:56.74 Promise rejected after context unloaded
+Dec 07, 2016 15:36:56.74 Promise rejected after context unloaded
+Dec 07, 2016 15:37:06.55 Promise rejected after context unloaded
+Dec 07, 2016 15:37:06.55 Promise rejected after context unloaded
+Dec 07, 2016 15:37:08.67 Promise rejected after context unloaded
+Dec 07, 2016 15:37:08.67 Promise rejected after context unloaded
+Dec 07, 2016 15:37:23.11 Promise rejected after context unloaded
+Dec 07, 2016 15:37:23.11 Promise rejected after context unloaded
+Dec 07, 2016 15:37:50.63 Promise rejected after context unloaded
+Dec 07, 2016 15:37:50.63 Promise rejected after context unloaded
+Dec 07, 2016 15:38:06.95 Promise rejected after context unloaded
+Dec 07, 2016 15:38:06.95 Promise rejected after context unloaded
+Dec 07, 2016 15:38:08.71 Promise rejected after context unloaded
+Dec 07, 2016 15:38:08.71 Promise rejected after context unloaded
+Dec 07, 2016 15:38:12.96 Promise rejected after context unloaded
+Dec 07, 2016 15:38:12.96 Promise rejected after context unloaded
+Dec 07, 2016 15:38:18.49 Promise rejected after context unloaded
+Dec 07, 2016 15:38:18.49 Promise rejected after context unloaded
+Dec 07, 2016 15:38:28.20 Promise rejected after context unloaded
+Dec 07, 2016 15:38:28.20 Promise rejected after context unloaded
+Dec 07, 2016 15:38:33.26 Promise rejected after context unloaded
+Dec 07, 2016 15:38:33.26 Promise rejected after context unloaded
+Dec 07, 2016 15:38:44.47 Promise rejected after context unloaded
+Dec 07, 2016 15:38:44.47 Promise rejected after context unloaded
+Dec 07, 2016 15:38:49.58 Promise rejected after context unloaded
+Dec 07, 2016 15:38:49.58 Promise rejected after context unloaded
+Dec 07, 2016 15:39:15.70 Promise rejected after context unloaded
+Dec 07, 2016 15:39:15.70 Promise rejected after context unloaded
+Dec 07, 2016 15:39:44.05 Promise rejected after context unloaded
+Dec 07, 2016 15:39:44.05 Promise rejected after context unloaded
+Dec 07, 2016 15:39:48.97 Promise rejected after context unloaded
+Dec 07, 2016 15:39:48.97 Promise rejected after context unloaded
+Dec 07, 2016 15:39:58.63 Promise rejected after context unloaded
+Dec 07, 2016 15:39:58.63 Promise rejected after context unloaded
+Dec 07, 2016 15:40:02.10 Promise rejected after context unloaded
+Dec 07, 2016 15:40:02.10 Promise rejected after context unloaded
+Dec 07, 2016 15:40:03.69 Promise rejected after context unloaded
+Dec 07, 2016 15:40:03.69 Promise rejected after context unloaded
+Dec 07, 2016 15:40:46.23 Promise rejected after context unloaded
+Dec 07, 2016 15:40:46.23 Promise rejected after context unloaded
+Dec 07, 2016 15:41:21.60 Promise rejected after context unloaded
+Dec 07, 2016 15:41:21.60 Promise rejected after context unloaded
+Dec 07, 2016 15:42:32.23 Promise rejected after context unloaded
+Dec 07, 2016 15:42:32.23 Promise rejected after context unloaded
+Dec 07, 2016 15:42:36.17 Promise rejected after context unloaded
+Dec 07, 2016 15:42:36.17 Promise rejected after context unloaded
+Dec 07, 2016 15:44:10.82 Promise rejected after context unloaded
+Dec 07, 2016 15:44:10.82 Promise rejected after context unloaded
+Dec 07, 2016 15:45:07.07 Promise rejected after context unloaded
+Dec 07, 2016 15:45:07.07 Promise rejected after context unloaded
+Dec 07, 2016 15:45:39.35 Promise rejected after context unloaded
+Dec 07, 2016 15:45:39.35 Promise rejected after context unloaded
+Dec 07, 2016 15:45:48.38 Promise rejected after context unloaded
+Dec 07, 2016 15:45:48.38 Promise rejected after context unloaded
+Dec 07, 2016 15:45:50.10 Promise rejected after context unloaded
+Dec 07, 2016 15:45:50.10 Promise rejected after context unloaded
+Dec 07, 2016 15:45:54.62 Promise rejected after context unloaded
+Dec 07, 2016 15:45:54.62 Promise rejected after context unloaded
+Dec 07, 2016 15:46:30.72 Promise rejected after context unloaded
+Dec 07, 2016 15:46:30.72 Promise rejected after context unloaded
+Dec 07, 2016 15:46:37.99 Promise rejected after context unloaded
+Dec 07, 2016 15:46:37.99 Promise rejected after context unloaded
+Dec 07, 2016 15:46:56.40 Promise rejected after context unloaded
+Dec 07, 2016 15:46:56.40 Promise rejected after context unloaded
+Dec 07, 2016 15:46:57.96 Promise rejected after context unloaded
+Dec 07, 2016 15:46:57.96 Promise rejected after context unloaded
+Dec 07, 2016 15:47:17.93 Promise rejected after context unloaded
+Dec 07, 2016 15:47:17.93 Promise rejected after context unloaded
+Dec 07, 2016 15:47:20.67 Promise rejected after context unloaded
+Dec 07, 2016 15:47:20.67 Promise rejected after context unloaded
+Dec 07, 2016 15:47:45.27 Promise rejected after context unloaded
+Dec 07, 2016 15:47:45.27 Promise rejected after context unloaded
+Dec 07, 2016 15:47:53.38 Promise rejected after context unloaded
+Dec 07, 2016 15:48:16.33 Promise rejected after context unloaded
+Dec 07, 2016 15:48:16.33 Promise rejected after context unloaded
+Dec 07, 2016 15:48:39.86 Promise rejected after context unloaded
+Dec 07, 2016 15:49:26.22 Promise rejected after context unloaded
+Dec 07, 2016 15:49:26.22 Promise rejected after context unloaded
+Dec 07, 2016 15:49:26.22 Promise rejected after context unloaded
+Dec 07, 2016 15:49:26.22 Promise rejected after context unloaded
+Dec 07, 2016 15:49:27.37 Promise rejected after context unloaded
+Dec 07, 2016 15:49:27.37 Promise rejected after context unloaded
+Dec 07, 2016 15:49:28.70 Promise rejected after context unloaded
+Dec 07, 2016 15:49:28.71 Promise rejected after context unloaded
+Dec 07, 2016 15:49:37.16 Promise rejected after context unloaded
+Dec 07, 2016 15:49:37.16 Promise rejected after context unloaded
+Dec 07, 2016 15:49:47.35 Promise rejected after context unloaded
+Dec 07, 2016 15:49:47.35 Promise rejected after context unloaded
+Dec 07, 2016 15:50:16.31 Promise rejected after context unloaded
+Dec 07, 2016 15:50:16.31 Promise rejected after context unloaded
+Dec 07, 2016 15:50:23.95 Promise rejected after context unloaded
+Dec 07, 2016 15:51:33.23 Promise rejected after context unloaded
+Dec 07, 2016 15:51:33.23 Promise rejected after context unloaded
+Dec 07, 2016 15:51:33.23 Promise rejected after context unloaded
+Dec 07, 2016 15:51:41.14 Promise rejected after context unloaded
+Dec 07, 2016 15:51:41.14 Promise rejected after context unloaded
+Dec 07, 2016 15:53:30.17 Promise rejected after context unloaded
+Dec 07, 2016 15:53:30.17 Promise rejected after context unloaded
+Dec 07, 2016 15:53:36.04 Promise rejected after context unloaded
+Dec 07, 2016 15:53:55.02 Promise rejected after context unloaded
+Dec 07, 2016 15:54:07.16 Promise rejected after context unloaded
+Dec 07, 2016 15:54:33.49 Promise rejected after context unloaded
+Dec 07, 2016 15:54:33.49 Promise rejected after context unloaded
+Dec 07, 2016 15:54:33.49 Promise rejected after context unloaded
+Dec 07, 2016 15:54:33.49 Promise rejected after context unloaded
+Dec 07, 2016 15:54:33.49 Promise rejected after context unloaded
+Dec 07, 2016 15:56:13.26 Promise rejected after context unloaded
+Dec 07, 2016 15:57:11.68 Promise rejected after context unloaded
+Dec 07, 2016 15:57:11.68 Promise rejected after context unloaded
+Dec 07, 2016 15:57:11.68 Promise rejected after context unloaded
+Dec 07, 2016 15:57:18.33 Promise rejected after context unloaded
+Dec 07, 2016 15:57:46.16 Promise rejected after context unloaded
+Dec 07, 2016 15:57:46.16 Promise rejected after context unloaded
+Dec 07, 2016 15:57:46.16 Promise rejected after context unloaded
+Dec 07, 2016 15:57:50.92 Promise rejected after context unloaded
+Dec 07, 2016 15:57:50.92 Promise rejected after context unloaded
+Dec 07, 2016 15:57:58.22 Promise rejected after context unloaded
+Dec 07, 2016 15:58:16.80 Promise rejected after context unloaded
+Dec 07, 2016 15:58:16.80 Promise rejected after context unloaded
+Dec 07, 2016 15:58:16.80 Promise rejected after context unloaded
+Dec 07, 2016 15:58:25.23 Promise rejected after context unloaded
+Dec 07, 2016 15:58:25.23 Promise rejected after context unloaded
+Dec 07, 2016 15:59:59.17 Promise rejected after context unloaded
+Dec 07, 2016 16:00:13.19 Promise rejected after context unloaded
+Dec 07, 2016 16:00:13.19 Promise rejected after context unloaded
+Dec 07, 2016 16:00:13.19 Promise rejected after context unloaded
+Dec 07, 2016 16:00:21.67 Promise rejected after context unloaded
+Dec 07, 2016 16:00:21.67 Promise rejected after context unloaded
+Dec 07, 2016 16:00:35.55 Promise rejected after context unloaded
+Dec 07, 2016 16:00:53.19 Promise rejected after context unloaded
+Dec 07, 2016 16:00:53.19 Promise rejected after context unloaded
+Dec 07, 2016 16:00:53.19 Promise rejected after context unloaded
+Dec 07, 2016 16:01:06.39 Promise rejected after context unloaded
+Dec 07, 2016 16:01:23.07 Promise rejected after context unloaded
+Dec 07, 2016 16:01:23.07 Promise rejected after context unloaded
+Dec 07, 2016 16:01:24.53 Promise rejected after context unloaded
+Dec 07, 2016 16:01:25.47 Promise rejected after context unloaded
+Dec 07, 2016 16:01:26.41 Promise rejected after context unloaded
+Dec 07, 2016 16:01:26.41 Promise rejected after context unloaded
+Dec 07, 2016 16:01:27.29 Promise rejected after context unloaded
+Dec 07, 2016 16:01:27.29 Promise rejected after context unloaded
+Dec 07, 2016 16:01:28.21 Promise rejected after context unloaded
+Dec 07, 2016 16:01:28.21 Promise rejected after context unloaded
+Dec 07, 2016 16:01:29.17 Promise rejected after context unloaded
+Dec 07, 2016 16:01:29.17 Promise rejected after context unloaded
+Dec 07, 2016 16:01:30.05 Promise rejected after context unloaded
+Dec 07, 2016 16:01:30.05 Promise rejected after context unloaded
+Dec 07, 2016 16:01:30.95 Promise rejected after context unloaded
+Dec 07, 2016 16:01:30.95 Promise rejected after context unloaded
+Dec 07, 2016 16:01:38.31 Promise rejected after context unloaded
+Dec 07, 2016 16:01:38.31 Promise rejected after context unloaded
+Dec 07, 2016 16:01:38.31 Promise rejected after context unloaded
+Dec 07, 2016 16:02:23.80 Promise rejected after context unloaded
+Dec 07, 2016 16:03:12.15 Promise rejected after context unloaded
+Dec 07, 2016 16:03:12.15 Promise rejected after context unloaded
+Dec 07, 2016 16:03:12.15 Promise rejected after context unloaded
+Dec 07, 2016 16:03:20.37 Promise rejected after context unloaded
+Dec 07, 2016 16:03:37.37 Promise rejected after context unloaded
+Dec 07, 2016 16:03:37.37 Promise rejected after context unloaded
+Dec 07, 2016 16:03:37.37 Promise rejected after context unloaded
+Dec 07, 2016 16:03:57.16 Promise rejected after context unloaded
+Dec 07, 2016 16:03:57.16 Promise rejected after context unloaded
+Dec 07, 2016 16:04:11.70 Promise rejected after context unloaded
+Dec 07, 2016 16:04:27.11 Promise rejected after context unloaded
+Dec 07, 2016 16:04:27.11 Promise rejected after context unloaded
+Dec 07, 2016 16:04:27.11 Promise rejected after context unloaded
+Dec 07, 2016 16:04:34.16 Promise rejected after context unloaded
+Dec 07, 2016 16:04:50.39 Promise rejected after context unloaded
+Dec 07, 2016 16:04:50.39 Promise rejected after context unloaded
+Dec 07, 2016 16:04:50.39 Promise rejected after context unloaded
+Dec 07, 2016 16:04:56.93 Promise rejected after context unloaded
+Dec 07, 2016 16:05:19.88 Promise rejected after context unloaded
+Dec 07, 2016 16:05:19.88 Promise rejected after context unloaded
+Dec 07, 2016 16:05:19.89 Promise rejected after context unloaded
+Dec 07, 2016 16:05:27.65 Promise rejected after context unloaded
+Dec 07, 2016 16:05:27.66 Promise rejected after context unloaded
+Dec 07, 2016 16:05:35.71 Promise rejected after context unloaded
+Dec 07, 2016 16:05:54.96 Promise rejected after context unloaded
+Dec 07, 2016 16:05:54.96 Promise rejected after context unloaded
+Dec 07, 2016 16:05:54.96 Promise rejected after context unloaded
+Dec 07, 2016 16:06:04.24 Promise rejected after context unloaded
+Dec 07, 2016 16:06:25.23 Promise rejected after context unloaded
+Dec 07, 2016 16:06:25.23 Promise rejected after context unloaded
+Dec 07, 2016 16:06:25.23 Promise rejected after context unloaded
+Dec 07, 2016 16:06:31.75 Promise rejected after context unloaded
+Dec 07, 2016 16:07:08.56 Promise rejected after context unloaded
+Dec 07, 2016 16:07:08.56 Promise rejected after context unloaded
+Dec 07, 2016 16:07:08.56 Promise rejected after context unloaded
+Dec 07, 2016 16:07:32.09 Promise rejected after context unloaded
+Dec 07, 2016 16:07:54.46 Promise rejected after context unloaded
+Dec 07, 2016 16:07:54.46 Promise rejected after context unloaded
+Dec 07, 2016 16:07:54.46 Promise rejected after context unloaded
+Dec 07, 2016 16:07:56.87 Promise rejected after context unloaded
+Dec 07, 2016 16:07:56.87 Promise rejected after context unloaded
+Dec 07, 2016 16:07:58.34 Promise rejected after context unloaded
+Dec 07, 2016 16:07:58.34 Promise rejected after context unloaded
+Dec 07, 2016 16:08:07.05 Promise rejected after context unloaded
+Dec 07, 2016 16:08:30.44 Promise rejected after context unloaded
+Dec 07, 2016 16:08:30.44 Promise rejected after context unloaded
+Dec 07, 2016 16:08:32.23 Promise rejected after context unloaded
+Dec 07, 2016 16:08:32.23 Promise rejected after context unloaded
+Dec 07, 2016 16:08:33.78 Promise rejected after context unloaded
+Dec 07, 2016 16:08:33.78 Promise rejected after context unloaded
+Dec 07, 2016 16:08:35.07 Promise rejected after context unloaded
+Dec 07, 2016 16:08:35.07 Promise rejected after context unloaded
+Dec 07, 2016 16:08:39.38 Promise rejected after context unloaded
+Dec 07, 2016 16:08:39.38 Promise rejected after context unloaded
+Dec 07, 2016 16:08:39.38 Promise rejected after context unloaded
+Dec 07, 2016 16:08:43.60 Promise rejected after context unloaded
+Dec 07, 2016 16:08:43.60 Promise rejected after context unloaded
+Dec 07, 2016 16:08:44.92 Promise rejected after context unloaded
+Dec 07, 2016 16:08:44.92 Promise rejected after context unloaded
+Dec 07, 2016 16:08:46.58 Promise rejected after context unloaded
+Dec 07, 2016 16:08:46.58 Promise rejected after context unloaded
+Dec 07, 2016 16:08:48.85 Promise rejected after context unloaded
+Dec 07, 2016 16:08:48.85 Promise rejected after context unloaded
+Dec 07, 2016 16:08:54.56 Promise rejected after context unloaded
+Dec 07, 2016 16:09:10.32 Promise rejected after context unloaded
+Dec 07, 2016 16:09:10.32 Promise rejected after context unloaded
+Dec 07, 2016 16:09:10.32 Promise rejected after context unloaded
+Dec 07, 2016 16:09:12.67 Promise rejected after context unloaded
+Dec 07, 2016 16:09:12.67 Promise rejected after context unloaded
+Dec 07, 2016 16:09:28.61 Promise rejected after context unloaded
+Dec 07, 2016 16:09:28.61 Promise rejected after context unloaded
+Dec 07, 2016 16:09:42.94 Promise rejected after context unloaded
+Dec 07, 2016 16:09:42.94 Promise rejected after context unloaded
+Dec 07, 2016 16:09:44.41 Promise rejected after context unloaded
+Dec 07, 2016 16:09:44.41 Promise rejected after context unloaded
+Dec 07, 2016 16:09:45.50 Promise rejected after context unloaded
+Dec 07, 2016 16:09:45.50 Promise rejected after context unloaded
+Dec 07, 2016 16:09:46.81 Promise rejected after context unloaded
+Dec 07, 2016 16:09:46.81 Promise rejected after context unloaded
+Dec 07, 2016 16:09:47.72 Promise rejected after context unloaded
+Dec 07, 2016 16:09:47.72 Promise rejected after context unloaded
+Dec 07, 2016 16:09:48.73 Promise rejected after context unloaded
+Dec 07, 2016 16:09:48.73 Promise rejected after context unloaded
+Dec 07, 2016 16:09:49.74 Promise rejected after context unloaded
+Dec 07, 2016 16:09:49.74 Promise rejected after context unloaded
+Dec 07, 2016 16:09:50.96 Promise rejected after context unloaded
+Dec 07, 2016 16:09:50.96 Promise rejected after context unloaded
+Dec 07, 2016 16:15:32.86 Promise rejected after context unloaded
+Dec 07, 2016 16:15:32.86 Promise rejected after context unloaded
+Dec 07, 2016 16:15:32.86 Promise rejected after context unloaded
+Dec 07, 2016 16:15:32.86 Promise rejected after context unloaded
+Dec 07, 2016 16:33:17.08 Promise rejected after context unloaded
+Dec 07, 2016 16:33:17.08 Promise rejected after context unloaded
+Dec 07, 2016 16:33:34.68 Promise rejected after context unloaded
+Dec 07, 2016 16:33:34.69 Promise rejected after context unloaded
+Dec 07, 2016 16:35:53.45 Promise rejected after context unloaded
+Dec 07, 2016 16:35:53.45 Promise rejected after context unloaded
+Dec 07, 2016 16:37:13.62 Promise rejected after context unloaded
+Dec 07, 2016 16:37:13.62 Promise rejected after context unloaded
+Dec 07, 2016 16:37:17.67 Promise rejected after context unloaded
+Dec 07, 2016 16:37:35.90 Promise rejected after context unloaded
+Dec 07, 2016 16:37:35.90 Promise rejected after context unloaded
+Dec 07, 2016 16:38:32.48 Promise rejected after context unloaded
+Dec 07, 2016 16:38:32.48 Promise rejected after context unloaded
+Dec 07, 2016 16:43:21.00 Promise rejected after context unloaded
+Dec 07, 2016 16:43:21.00 Promise rejected after context unloaded
+Dec 07, 2016 16:43:35.77 Promise rejected after context unloaded
+Dec 07, 2016 16:43:35.77 Promise rejected after context unloaded
+Dec 07, 2016 16:44:40.74 Promise rejected after context unloaded
+Dec 07, 2016 16:44:40.74 Promise rejected after context unloaded
+Dec 07, 2016 16:45:29.15 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.54 tabs.onRemoved event fired after context unloaded.
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+Dec 07, 2016 16:45:33.55 Promise rejected after context unloaded
+
+Dec 08, 2016 10:58:00.26 NEW SESSION
+Dec 08, 2016 10:58:00.26 1481174880259	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 08, 2016 10:58:00.32 1481174880275	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 08, 2016 10:58:00.32 1481174880275	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 08, 2016 10:58:00.32 1481174880321	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 08, 2016 10:58:01.28 *************************
+Dec 08, 2016 10:58:01.28 A coding exception was thrown and uncaught in a Task.
+Dec 08, 2016 10:58:01.28 
+Dec 08, 2016 10:58:01.28 Full message: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+Dec 08, 2016 10:58:01.28 Full stack: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 08, 2016 10:58:01.28 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 08, 2016 10:58:01.28 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 08, 2016 10:58:01.28 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 08, 2016 10:58:01.28 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 08, 2016 10:58:01.28 
+Dec 08, 2016 10:58:01.28 *************************
+Dec 08, 2016 10:58:01.28 Extension error: AddonManagerInternal._getProviderByName(...) is undefined resource://gre/modules/AddonManager.jsm:2352 :: AddonManagerInternal.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:2352:13
+Dec 08, 2016 10:58:01.28 this.AddonManager.getAddonByInstanceID@resource://gre/modules/AddonManager.jsm:3510:12
+Dec 08, 2016 10:58:01.28 BackgroundPage.prototype.build<@chrome://extensions/content/ext-backgroundPage.js:110:7
+Dec 08, 2016 10:58:01.28 TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+Dec 08, 2016 10:58:01.29 Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+Dec 08, 2016 10:58:01.29 
+Dec 08, 2016 10:58:01.49 1481174881492	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: TypeError: XPIProvider.installLocationsByName is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:339:5) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:339:5 < this.XPIDatabase.parseDB@XPIProviderUtils.js:675:24 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 08, 2016 10:58:01.49 1481174881494	addons.xpi-utils	WARN	Rebuilding add-ons database from installed extensions.
+Dec 08, 2016 10:58:01.49 1481174881495	addons.xpi-utils	ERROR	Failed to rebuild XPI database from installed extensions: TypeError: XPIProvider.installLocations is null (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1934:14) JS Stack trace: processFileChanges@XPIProviderUtils.js:1934:14 < this.XPIDatabase.rebuildDatabase@XPIProviderUtils.js:825:9 < this.XPIDatabase.parseDB@XPIProviderUtils.js:696:7 < this.XPIDatabase.asyncLoadDB/this._dbPromise<@XPIProviderUtils.js:778:9 < Handler.prototype.process@Promise-backend.js:937:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:816:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:750:11 < Spinner.prototype.observe@AsyncShutdown.jsm:551:9
+Dec 08, 2016 10:58:04.68 
+Dec 08, 2016 10:58:04.68 ###!!! [Parent][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 08, 2016 10:58:04.68 
+Dec 08, 2016 10:58:06.56 1481174886566	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing options_ui.open_in_tabs: An unexpected property was found in the WebExtension manifest
+Dec 08, 2016 10:58:06.57 1481174886577	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing container: An unexpected property was found in the WebExtension manifest.
+Dec 08, 2016 10:58:06.57 1481174886578	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Loading extension 'jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack': Reading manifest: Error processing api_console_project_id: An unexpected property was found in the WebExtension manifest.
+Dec 08, 2016 10:58:06.60 1481174886604	addons.webextension.jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Dec 08, 2016 10:58:14.31 Promise rejected after context unloaded
+Dec 08, 2016 10:58:14.31 Promise rejected after context unloaded
+Dec 08, 2016 10:58:23.06 Promise rejected after context unloaded
+Dec 08, 2016 10:58:23.06 Promise rejected after context unloaded
+Dec 08, 2016 10:59:08.89 1481174948899	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Dec 08, 2016 11:24:04.51 Promise rejected after context unloaded
+Dec 08, 2016 11:24:04.51 Promise rejected after context unloaded
+Dec 08, 2016 11:24:07.85 Promise rejected after context unloaded
+Dec 08, 2016 11:24:07.85 Promise rejected after context unloaded
+Dec 08, 2016 11:24:41.41 Promise rejected after context unloaded
+Dec 08, 2016 11:24:41.41 Promise rejected after context unloaded
+Dec 08, 2016 11:30:42.68 Promise rejected after context unloaded
+Dec 08, 2016 11:30:42.68 Promise rejected after context unloaded
+Dec 08, 2016 11:30:56.03 Promise rejected after context unloaded
+Dec 08, 2016 11:30:56.03 Promise rejected after context unloaded
+Dec 08, 2016 11:31:00.37 Promise rejected after context unloaded
+Dec 08, 2016 11:31:00.37 Promise rejected after context unloaded
+Dec 08, 2016 11:31:29.84 Promise rejected after context unloaded
+Dec 08, 2016 11:31:29.84 Promise rejected after context unloaded
+Dec 08, 2016 11:31:37.31 Promise rejected after context unloaded
+Dec 08, 2016 11:31:37.31 Promise rejected after context unloaded
+Dec 08, 2016 11:32:34.62 Promise rejected after context unloaded
+Dec 08, 2016 11:32:34.62 Promise rejected after context unloaded
+Dec 08, 2016 11:36:17.81 tabs.onRemoved event fired after context unloaded.
+Dec 08, 2016 11:36:17.82 Promise rejected after context unloaded
+Dec 08, 2016 11:36:17.82 Promise rejected after context unloaded
+Dec 08, 2016 11:36:17.82 Promise rejected after context unloaded
+Dec 08, 2016 11:36:17.82 Promise rejected after context unloaded
